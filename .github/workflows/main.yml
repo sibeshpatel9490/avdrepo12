@@ -13,6 +13,6 @@ jobs:
             - name: show python version
               run: python --version
             - name: installing dependencies
-              run: pip install pandas
+              run: pip install -r requirements.txt
             - name: run puthon program
               run: python extract_data.py 
