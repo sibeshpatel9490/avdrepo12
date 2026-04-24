@@ -1,5 +1,5 @@
 import os
 token = os.getenv("MY_TOKEN")
 
-if token=="abcd1234":
+if token=="1234abcd":
     print("matched")
